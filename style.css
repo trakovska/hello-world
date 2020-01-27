@@ -1,0 +1,52 @@
+nav {
+  background-color: red;
+}
+
+.visina {min-height: 150px;}
+
+.veliki {
+  height:100vh;
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  position: relative;
+  background-color: red;
+}
+
+#lijevo {
+  position: absolute;
+  left:10px;
+  top: 45vh;
+  font-size: 60pt;
+  color: white;
+}
+
+#desno {
+  position: absolute;
+  right:10px;
+  top: 45vh;
+  font-size: 60pt;
+  color: white;
+}
+
+
+.slika {
+  height: 60vh;
+  width: 100%;
+  margin: 5vh 0;
+}
+
+.slika img{
+  height: 100%;
+  width: auto;
+}
+
+.slikanav {
+  height: 20vh;
+  margin: 0 0 50px 0;
+  cursor: pointer;
+}
+
+.slikanav img{
+height: 100%;
+  width: 100%;
+}
